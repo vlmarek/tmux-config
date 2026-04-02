@@ -18,4 +18,4 @@ sock=$(printf "%s" "$sock" | tr -c 'A-Za-z0-9._-' '_')
 # Export parent so inner tmux server keeps it in global environment
 export TMUX_PARENT="$parent"
 
-exec tmux -L "$sock" -f ~/.tmux2/inner.conf new-session -A -s inner
+exec tmux -L "$sock" -f ~/.tmux2/inner.conf new-session -A -s inner -n .
