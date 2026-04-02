@@ -34,6 +34,7 @@ Run:
 - `Ctrl-a |` - split side by side
 - `Ctrl-a -` - split top/bottom
 - `Ctrl-a h/j/k/l` - select pane left/down/up/right
+- `Ctrl-a K` - kill current inner window (with confirmation)
 
 ### Outer tmux controls (from inner via `Ctrl-x` key table)
 - `Ctrl-x c` / `Ctrl-x Ctrl-c` - new outer window (`bash`, auto-starts inner)
@@ -43,6 +44,7 @@ Run:
 - `Ctrl-x ' ` - choose outer window
 - `Ctrl-x a` / `Ctrl-x A` - rename outer window (`outer-rename.sh`)
 - `Ctrl-x N` - prompt index and move/swap outer window (`outer-number.sh`)
+- `Ctrl-x k` - kill current outer window (with confirmation)
 
 ### Outer tmux direct prefix (`Ctrl-x`)
 - `Ctrl-x c` / `Ctrl-x Ctrl-c` - new outer window (`bash`)
@@ -51,6 +53,10 @@ Run:
 - `Ctrl-x ' ` - choose outer window
 - `Ctrl-x a` / `Ctrl-x A` - rename current outer window
 - `Ctrl-x N` - prompt index and move/swap outer window (`number.sh`)
+- `Ctrl-x k` - kill current outer window (with confirmation)
+
+## Prompts
+- kill confirmation text: `Really kill this window [y/n]`
 
 ## Style
 - status bars: no explicit background color (`bg=default`)
