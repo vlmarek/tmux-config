@@ -27,7 +27,9 @@ Run:
 - `Ctrl-a c` / `Ctrl-a Ctrl-c` - new inner window (`.`)
 - `Ctrl-a n` / `Ctrl-a <Space>` - next inner window
 - `Ctrl-a p` - previous inner window
-- `Ctrl-a Ctrl-a` / `Ctrl-a a` - last inner window
+- `Ctrl-a Ctrl-a` - last inner window
+- `Ctrl-a a` - send `Ctrl-a` to the pane
+- `Ctrl-a x` - send `Ctrl-x` to the pane
 - `Ctrl-a ' ` - choose inner window
 - `Ctrl-a A` - rename current inner window
 - `Ctrl-a N` - prompt index and move/swap inner window (`number.sh`)
@@ -41,7 +43,8 @@ Run:
 - `Ctrl-x c` / `Ctrl-x Ctrl-c` - new outer window (`.`, auto-starts inner)
 - `Ctrl-x n` / `Ctrl-x <Space>` - next outer window
 - `Ctrl-x p` - previous outer window
-- `Ctrl-x Ctrl-x` / `Ctrl-x x` - last outer window
+- `Ctrl-x Ctrl-x` - last outer window
+- `Ctrl-x x` - send `Ctrl-x` to the pane
 - `Ctrl-x ' ` - choose outer window
 - `Ctrl-x a` / `Ctrl-x A` - rename outer window (`outer-rename.sh`)
 - `Ctrl-x N` - prompt index and move/swap outer window (`outer-number.sh`)
@@ -50,7 +53,8 @@ Run:
 ### Outer tmux direct prefix (`Ctrl-x`)
 - `Ctrl-x c` / `Ctrl-x Ctrl-c` - new outer window (`.`)
 - `Ctrl-x n` / `Ctrl-x <Space>` - next outer window
-- `Ctrl-x x` / `Ctrl-x Ctrl-x` - last outer window
+- `Ctrl-x Ctrl-x` - last outer window
+- `Ctrl-x x` - send `Ctrl-x` to the pane
 - `Ctrl-x ' ` - choose outer window
 - `Ctrl-x a` / `Ctrl-x A` - rename current outer window
 - `Ctrl-x N` - prompt index and move/swap outer window (`number.sh`)

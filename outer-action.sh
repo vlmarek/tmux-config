@@ -17,6 +17,9 @@ case "$action" in
   new)
     tmux -L "$parent" new-window -n .
     ;;
+  last)
+    tmux -L "$parent" last-window
+    ;;
   next)
     tmux -L "$parent" next-window
     ;;
